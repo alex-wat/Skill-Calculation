@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skill Calculation</title>
+    </head>
+    <body>
+        <h1>Real Life Experience Calculator</h1>
+        <p>(This project uses a realistic logarithmic function to simulate actual learning!)</p>
+        <br><br>
+        <h2>What is the name of the skill you wish to learn?</h2>
+        <input id='skillName' type='text' class='darker'>
+        <br><br><br><br>
+        <h2>How many hours per week will you practice this skill?</h2>
+        <input id='hoursPerWeek' type='number' class='darker'>
+        <br><br><br><br>
+        <h2>I have access to the following:</h2>
+        <input type='checkbox' id='docu'>
+        <label for="documentation">Accurate documentation regarding the skill</label>
+        <br>
+        <input type='checkbox' id='mentor'>
+        <label for="mentor">An experiened mentor who will help me learn the skill</label>
+        <br><br><br><br>
+        <h2>Date of Prediction</h2>
+        <input id='endMonth' type='datetime-local' class='darker'><br><br>
+        <input id='finCalc' type='submit' onclick='skillCalc()' class='darker'>
+        <br>
+        <br>
+        <p id='end'></p>
+    </body>
+</html>
